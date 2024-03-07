@@ -12,6 +12,9 @@
 bash <(curl -Ls https://raw.githubusercontent.com/MiSaturo/WarpScanner/main/point/endip.sh
 
 یکی از آیپی تمیز ها رو همراه با پورت کپی کنید و در جایی ذخیره کنید.
+
+توجه : اگر اسکریپت بالا جواب نداد میتونید CRTL را با C کیبورد بگیرید و از اسکریپت زیر استفاده کنید.
+bash <(curl -fsSL https://raw.githubusercontent.com/Ptechgithub/warp/main/endip/install.sh)
 ## مرحله دوم
 کد دوم برای ساخت اکانت وارپ:
 
