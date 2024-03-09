@@ -4,6 +4,14 @@
 جیسون اصلاح شده با دریافت آیپی از کاربران  
 با عرض سلام این پروژه همون پروژه فایل جیسون وارپ آن وارپ هیدیفای هست که برای راحتی کاربرانی که به اشتباه کپی و پیست میکنن در فایل جیسون ایجاد شده است.
 این فایل یک فایل پایتون هست که با آیپی تمیز و اکانت های کلود فلر باز کار میکند حالا چجوری؟
+![JSON](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white)
+![Android](https://img.shields.io/badge/Android-34A853.svg?style=for-the-badge&logo=Android&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white)
+![termux](https://img.shields.io/badge/Linux-FCC624.svg?style=for-the-badge&logo=Linux&logoColor=black)
+![Windows](https://img.shields.io/badge/Windows-0078D4.svg?style=for-the-badge&logo=Windows&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020.svg?style=for-the-badge&logo=Cloudflare&logoColor=white)
+
+
 
 ## مرحله اول
 توی ترموکس اسکریپت های زیر رو اجرا کنید.
