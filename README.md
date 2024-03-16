@@ -60,7 +60,7 @@ https://youtube.com/@Kayhgng?si=2un57BMUUgD_mj0a
 
     apt update
     apt upgrade
-    bash <(curl -Ls [https://raw.githubusercontent.com/MiSaturo/WarpScanner/main/point/endip.sh](https://raw.githubusercontent.com/MiSaturo/WarpScanner/main/point/endip.sh)
+    bash <(curl -Ls [https://raw.githubusercontent.com/MiSaturo/WarpScanner/main/point/endip.sh]
     اگر کد بش بالا کار نکرد از بش پایین استفاده میکنیم
     bash <(curl -fsSL [https://raw.githubusercontent.com/Ptechgithub/warp/main/endip/install.sh](https://raw.githubusercontent.com/Ptechgithub/warp/main/endip/install.sh))
     curl -sL "[https://api.zeroteam.top/warp?format=sing-box](https://api.zeroteam.top/warp?format=sing-box)" | grep -Eo --color=never '"2606:4700:[0-9a-f:]+/128"|"private_key":"[0-9a-zA-Z/+]+="|"reserved":[[0-9]+(,[0-9]+){2}]'
