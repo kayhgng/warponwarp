@@ -46,28 +46,8 @@ curl -sL "https://api.zeroteam.top/warp?format=sing-box" | grep -Eo --color=neve
 IPV6 رو بدون دبل کوتیشن کپی کنید.
 
 همچنین پرایوت کی ها هم بدون " کپی کنید.
-
-و اینکه یه باگی که نرم افزار ما داره اینه که خودتون باید بعد دریافت کد جیسون این چن خط اول رو اصلاح کنید
-
-"path": "geo-assets\sagernet-sing-geoip-geoip.db" 
-
-به 
-
-"path": "geo-assets\\sagernet-sing-geoip-geoip.db"
-
-اصلاح میشه یعنی قبل از sagernet دو تا باید \ باشه.
-
-"path": "geo-assets\sagernet-sing-geosite-geosite.db"
-
-هم به 
-
-"path": "geo-assets\\sagernet-sing-geosite-geosite.db"
-
-اصلاح میشه باز هم همون مشکل قبلی 
-
-بزودی فیلم های آموزشی در اختیار شما قرار خواهد گرفت
-
 alikayh
+علی کِی اِچ
 
 فیلم آموزشی نصب ابزار در ترموکس اندروید 
 
