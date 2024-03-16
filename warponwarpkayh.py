@@ -12,17 +12,28 @@ print("""
 print("""
 
 
+ __          __                  
+ \ \        / /                  
+  \ \  /\  / /__ _  _ __  _ __   
+   \ \/  \/ // _` || '__|| '_ \  
+    \  /\  /| (_| || |   | |_) | 
+     \/  \/  \__,_||_|   | .__/  
+                         | |                                                    
+                         |_|     
 
 
-
- __          __                   _  __              _    _    _____  _   _   _____ 
- \ \        / /                  | |/ /             | |  | |  / ____|| \ | | / ____|
-  \ \  /\  / /__ _  _ __  _ __   | ' /  __ _  _   _ | |__| | | |  __ |  \| || |  __ 
-   \ \/  \/ // _` || '__|| '_ \  |  <  / _` || | | ||  __  | | | |_ || . ` || | |_ |
-    \  /\  /| (_| || |   | |_) | | . \| (_| || |_| || |  | | | |__| || |\  || |__| |
-     \/  \/  \__,_||_|   | .__/  |_|\_\\\__,_| \__, ||_|  |_|  \_____||_| \_| \_____|
-                         | |                   __/ |                                      v.2 powered by Ali KayH
-                         |_|                  |___/                                 
+      
+  _  __              _    _    _____  _   _   _____ 
+ | |/ /             | |  | |  / ____|| \ | | / ____|
+ | ' /  __ _  _   _ | |__| | | |  __ |  \| || |  __ 
+ |  <  / _` || | | ||  __  | | | |_ || . ` || | |_ |
+ | . \| (_| || |_| || |  | | | |__| || |\  || |__| |
+ |_|\_\\\__,_| \__, ||_|  |_|  \_____||_| \_| \_____|    
+               __/ |                                
+              |___/                                        
+      
+      V2 - Poweredby Ali Kay H - Github: https://github.com/kayhgng
+                                           
                                       
                                                                                                                                                         
 
@@ -132,7 +143,7 @@ config_template = """
 ipv6 = input("Please Enter the Ipv6 iran: ")
 iran_private_key = input("Please Enter the Private key of Iran server: ")
 ip_for_all = input("Clean IP: ")
-ip_port = input("Port Clean IP: ")
+ip_port = input("Port Clean IP ")
 reserved_iran = input("Please Enter the reserved of Iran Server: ")
 reserved_germany = input("Please Enter the reserved of Germany Server: ")
 germany_private_key = input("Please Enter the Private key of Germany server:  ")
