@@ -149,9 +149,9 @@ iran_private_key = input("Please Enter the Private key of Iran server: ")
 ip_for_all = input("Clean IP: ")
 ip_port = input("Port Clean IP: ")
 reserved_iran = input("Please Enter the reserved of Iran Server: ")
-reserved_germany = input("Please Enter the reserved of Germany Server: ")
-germany_private_key = input("Please Enter the Private key of Germany server:  ")
-ipv6_german = input("Please  Enter the Ipv6 Germany: ")
+reserved_germany = input("Please Enter the reserved of foreign Server: ")
+germany_private_key = input("Please Enter the Private key of foreign server:  ")
+ipv6_german = input("Please  Enter the Ipv6 foreign: ")
 
 output = config_template.replace("[ipv6]", ipv6).replace("[iranprivate]", iran_private_key).replace("[ip]", ip_for_all).replace("[port]", ip_port).replace("[reserved]", reserved_iran).replace("[reservedgermany]", reserved_germany).replace("[privategermany]", germany_private_key).replace("[ipv62]", ipv6_german)
 
