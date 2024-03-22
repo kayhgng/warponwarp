@@ -40,6 +40,11 @@ https://github.com/kayhgng/wirekayh/
 
 به پروژه ساخت اکانت وایرگارد ما مراجعه میکنید.
 
+اگر کد بالا کار نکرد البته ما درحال رفع باگ هستیم ؛ (چون dos2unix باگ میخوره معمولا) از کد زیر میتونید استفاده کنید:
+
+curl -sL "https://api.zeroteam.top/warp?format=sing-box" | grep -Eo --color=never '"2606:4700:[0-9a-f:]+/128"|"private_key":"[0-9a-zA-Z\/+]+="|"reserved":\[[0-9]+(,[0-9]+){2}\]'
+
+
 
 
 و نرم افزار مارو در کامپایلر های پایتون و یا در ترموکس اجرا میکنید و مقادیر لازم رو وارد میکنید و بهتون کد جیسون وارپ آن وارپ هیدیفای رو نرم افزار ما میده.
@@ -71,6 +76,9 @@ https://youtube.com/@Kayhgng?si=2un57BMUUgD_mj0a
     cd wirekayh
     dos2unix WiregaurdWarpmaker.sh
     bash WiregaurdWarpmaker.sh
+    اگر کارنکرد اینو بزنید 
+    curl -sL "https://api.zeroteam.top/warp?format=sing-box" | grep -Eo --color=never '"2606:4700:[0-9a-f:]+/128"|"private_key":"[0-9a-zA-Z\/+]+="|"reserved":\[[0-9]+(,[0-9]+){2}\]'
+    
     git clone https://github.com/kayhgng/warponwarp.git
     pkg install python
     ls
