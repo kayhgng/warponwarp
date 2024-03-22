@@ -70,7 +70,7 @@ https://youtube.com/@Kayhgng?si=2un57BMUUgD_mj0a
     git clone https://github.com/kayhgng/wirekayh.git
     cd wirekayh
     dos2unix WiregaurdWarpmaker.sh
-    ./WiregaurdWarpmaker.sh
+    bash WiregaurdWarpmaker.sh
     git clone https://github.com/kayhgng/warponwarp.git
     pkg install python
     ls
