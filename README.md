@@ -71,6 +71,10 @@ https://youtube.com/@Kayhgng?si=2un57BMUUgD_mj0a
     bash <(curl -fsSL [https://raw.githubusercontent.com/Ptechgithub/warp/main/endip/install.sh]
     pkg install git
     apt-get install dos2unix
+    termux-setup-storage
+    cd storage
+    mkdir warponwarp
+    cd warponwarp
     git clone https://github.com/kayhgng/wirekayh.git
     cd wirekayh
     dos2unix WiregaurdWarpmaker.sh
