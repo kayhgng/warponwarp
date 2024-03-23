@@ -81,6 +81,8 @@ https://youtube.com/@Kayhgng?si=2un57BMUUgD_mj0a
     pkg install python
     ls
     cd warponwarp
+    pip install requests
+    pip install rich
     python warponwarpkayh.py
 
 
