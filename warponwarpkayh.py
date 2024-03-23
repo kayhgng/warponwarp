@@ -1,4 +1,43 @@
-print("""
+import requests
+import time
+import os
+from rich import *
+print("[green]KayHGNG Wireguard Account Maker v.1 [/green]")
+
+key_input = input("Please enter '1' to make 2 Wireguard Accounts:")
+
+# Check if key_input is '1'
+if key_input == '1':
+    # Define the URL for the request
+    url = "https://api.zeroteam.top/warp?format=sing-box"
+
+    # Make the first request
+    response1 = requests.get(url)
+    print("[red]First Account:[/red]")
+    print(response1.text)
+
+    # Wait for 5 seconds
+    time.sleep(5)
+
+    # Make the second request
+    response2 = requests.get(url)
+    print("[gray]\nSecond Account:[/gray]")
+    print(response2.text)
+    
+    with open('FirstAccount.txt', 'w') as file1:
+      file1.write(response1.text)
+
+    with open('SecondAccount.txt', 'w') as file2:
+      file2.write(response2.text)  
+
+    print("[yellow]Responses have been saved to FirstAccount.txt SecondAccount.txt and file.[/yellow]")
+else:
+    print("[red]Invalid input. Exiting without making Account!.[red]")
+
+time.sleep(5)
+os.system("cls")
+
+print("""[blue]
   _    _  _      _      _          __        
  | |  | |(_)    | |    | |        / _|       
  | |__| | _   __| |  __| | _   _ | |_  _   _ 
@@ -7,9 +46,9 @@ print("""
  |_|  |_||_| \__,_| \__,_| \__, ||_|   \__, |
                             __/ |       __/ |
                            |___/       |___/ 
-""")
+[/blue]""")
 
-print("""
+print("""[green]
 
 
 
@@ -36,13 +75,13 @@ print("""
                __/ |                                
               |___/                                        
       
-      V3 - Poweredby Ali Kay H - Github: https://github.com/kayhgng
+      V4 - Poweredby Ali Kay H - Github: https://github.com/kayhgng
                                            
                                       
                                                                                                                                                         
 
-""")
-config_template = """
+[/green]""")
+config_template = """[yellow]
 {
   "route": {
     "geoip": {
@@ -142,7 +181,7 @@ config_template = """
     }
   ]  
 }
-"""
+[/yellow]"""
 
 ipv6 = input("Please Enter the Ipv6 iran: ")
 iran_private_key = input("Please Enter the Private key of Iran server: ")
@@ -161,3 +200,4 @@ with open('JsonKayH.txt', 'w') as file:
     file.write(output)
 
 print("Config data has been saved to JsonKayH.txt file.")
+
