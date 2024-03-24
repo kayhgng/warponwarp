@@ -44,7 +44,7 @@ https://github.com/kayhgng/wirekayh/
 و نرم افزار مارو در کامپایلر های پایتون و یا در ترموکس اجرا میکنید و مقادیر لازم رو وارد میکنید و بهتون کد جیسون وارپ آن وارپ هیدیفای رو نرم افزار ما میده.
 
 ## نکات
-اکر با نرم افزار پایتون ما اکانت وایرگاردتون رو میگیرید در دستگاه شما دو تا فایل ایجاد میشه که درون اون دوتا فایل اکانت شما هست به اسم های 
+اکر با نرم افزار پایتون ما اکانت وایرگاردتون رو میگیرید در دستگاه شما دو تا فایل در دانلود هاتون ایجاد میشه که درون اون دوتا فایل اکانت شما هست به اسم های 
 FirstAccount.txt
 و
 SecondAccount.txt
@@ -73,6 +73,7 @@ https://youtube.com/@Kayhgng?si=2un57BMUUgD_mj0a
     apt-get install dos2unix
     termux-setup-storage
     cd storage
+    cd downloads
     mkdir warponwarp
     cd warponwarp
     git clone https://github.com/kayhgng/wirekayh.git
