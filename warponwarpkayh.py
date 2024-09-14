@@ -1,41 +1,22 @@
 import requests
 import time
 import os
+import webbrowser
 from rich import *
-print("[green]KayHGNG Wireguard Account Maker v.1 [/green]")
+print("[green]KayHGNG Wireguard Account Maker v.2 [/green]")
 
-key_input = input("Please enter '1' to make 2 Wireguard Accounts:")
+
+
+url = "https://kayhgng.github.io/wireguardaccount/"
+webbrowser.open(url)
+print("Now The website is open You can copy and paste in this file")
+
+key_input = input("Please enter 'Iran' to make Warp on Warp for you - Github.com/kayhgng:")
 
 # Check if key_input is '1'
-if key_input == '1':
-    # Define the URL for the request
-    url = "https://api.zeroteam.top/warp?format=sing-box"
-
-    # Make the first request
-    response1 = requests.get(url)
-    print("[red]First Account:[/red]")
-    print(response1.text)
-
-    # Wait for 5 seconds
+if key_input == 'Iran':
     time.sleep(5)
-
-    # Make the second request
-    response2 = requests.get(url)
-    print("[gray]\nSecond Account:[/gray]")
-    print(response2.text)
-    
-    with open('FirstAccount.txt', 'w') as file1:
-      file1.write(response1.text)
-
-    with open('SecondAccount.txt', 'w') as file2:
-      file2.write(response2.text)  
-
-    print("[yellow]Responses have been saved to FirstAccount.txt SecondAccount.txt and file.[/yellow]")
-else:
-    print("[red]Invalid input. Exiting without making Account!.[red]")
-
-time.sleep(5)
-os.system("cls")
+    os.system("cls")
 
 print("""[blue]
   _    _  _      _      _          __        
@@ -75,7 +56,7 @@ print("""[green]
                __/ |                                
               |___/                                        
       
-      V4 - Poweredby Ali Kay H - Github: https://github.com/kayhgng
+      V5 - Poweredby Ali Kay H - Github: https://github.com/kayhgng
                                            
                                       
                                                                                                                                                         
@@ -135,15 +116,14 @@ config_template = """[yellow]
     {
       "type": "wireguard",
       "tag": "IP->Iran, KayH GNG",
-      "local_address": [
-        "172.16.0.2/32",
+      "local_address": 
         "[ipv6]"
       ],
       "private_key": "[iranprivate]",
       "server": "[ip]",
       "server_port": [port],
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": [reserved],
+      "reserved": [[reserved]],
       "mtu": 1280,
       "fake_packets": "5-10"
     },
@@ -151,15 +131,14 @@ config_template = """[yellow]
       "type": "wireguard",
       "tag": "IP->Main, KayH GNG",
       "detour": "IP->Iran, KayH GNG",
-      "local_address": [
-        "172.16.0.2/32",
+      "local_address": 
         "[ipv62]"
       ],
       "private_key": "[privategermany]",
       "server": "[ip]",
       "server_port": [port],
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": [reservedgermany],
+      "reserved": [[reservedgermany]],
       "mtu": 1280,
       "fake_packets": "5-10"
     },
@@ -185,12 +164,14 @@ config_template = """[yellow]
 
 ipv6 = input("Please Enter the Ipv6 iran: ")
 iran_private_key = input("Please Enter the Private key of Iran server: ")
+reserved_iran = input("Please Enter the reserved of Iran Server: ")
 ip_for_all = input("Clean IP: ")
 ip_port = input("Port Clean IP: ")
-reserved_iran = input("Please Enter the reserved of Iran Server: ")
-reserved_germany = input("Please Enter the reserved of foreign Server: ")
-germany_private_key = input("Please Enter the Private key of foreign server:  ")
 ipv6_german = input("Please  Enter the Ipv6 foreign: ")
+germany_private_key = input("Please Enter the Private key of foreign server:  ")
+reserved_germany = input("Please Enter the reserved of foreign Server: ")
+
+
 
 output = config_template.replace("[ipv6]", ipv6).replace("[iranprivate]", iran_private_key).replace("[ip]", ip_for_all).replace("[port]", ip_port).replace("[reserved]", reserved_iran).replace("[reservedgermany]", reserved_germany).replace("[privategermany]", germany_private_key).replace("[ipv62]", ipv6_german)
 
