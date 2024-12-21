@@ -80,7 +80,7 @@ if key_input == 'Iran':
                 ],
                 "private_key": iran_private_key,
                 "server": ip_for_all,
-                "server_port": int(ip_port),
+                "server_port": int(ip_port) if ip_port.isdigit() else None,
                 "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
                 "reserved": [reserved_iran],
                 "mtu": 1280,
@@ -95,7 +95,7 @@ if key_input == 'Iran':
                 ],
                 "private_key": germany_private_key,
                 "server": ip_for_all,
-                "server_port": int(ip_port),
+                "server_port": int(ip_port) if ip_port.isdigit() else None,
                 "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
                 "reserved": [reserved_germany],
                 "mtu": 1280,
@@ -134,5 +134,3 @@ if key_input == 'Iran':
         file_name='JsonKayH.txt',
         mime='application/json'
     )
-
-# Next step: User inputs all necessary data and clicks download to get the JSON config file.
