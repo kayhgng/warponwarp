@@ -10,7 +10,7 @@ url = "https://kayhgng.github.io/wireguardaccount/"
 st.markdown(f"Click [here]({url}) to visit the website for Generating 2 Wireguard Accounts.", unsafe_allow_html=True)
 
 # Info about developer
-st.info("Developed by alikay_h --> github.com/kayhgng")
+st.info("Developed by Alikay_h --> github.com/kayhgng")
 
 # Input fields for user data
 key_input = st.text_input("Please enter 'Iran' to make Warp on Warp for you - Github.com/kayhgng:")
