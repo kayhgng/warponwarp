@@ -19,8 +19,8 @@ ipv6_german = st.text_input("Please Enter the Ipv6 foreign:")
 germany_private_key = st.text_input("Please Enter the Private key of foreign server:")
 reserved_germany = st.text_input("Please Enter the reserved of foreign Server:")
 
-# Check if key_input is 'Iran'
-if key_input == 'Iran':
+# Check if key_input is 'Iran' and all other fields are not empty
+if key_input == 'Iran' and ipv6 and iran_private_key and reserved_iran and ip_for_all and ip_port and ipv6_german and germany_private_key and reserved_germany:
     # Config template
     config_template = {
         "route": {
@@ -134,3 +134,5 @@ if key_input == 'Iran':
         file_name='JsonKayH.txt',
         mime='application/json'
     )
+else:
+    st.warning("Please fill all fields and enter 'Iran' to generate the configuration.")
