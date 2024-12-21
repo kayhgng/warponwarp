@@ -7,7 +7,7 @@ st.title("KayHGNG Wireguard Account Maker v.3 ON WEB !")
 
 # Open website in a new tab
 url = "https://kayhgng.github.io/wireguardaccount/"
-st.markdown(f"Click [here]({url}) to visit the website for copying and pasting.", unsafe_allow_html=True)
+st.markdown(f"Click [here]({url}) to visit the website for Generating 2 Wireguard Accounts.", unsafe_allow_html=True)
 
 # Info about developer
 st.info("Developed by alikay_h --> github.com/kayhgng")
