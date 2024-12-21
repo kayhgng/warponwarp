@@ -3,7 +3,7 @@ import time
 import os
 import webbrowser
 from rich import *
-print("[green]KayHGNG Wireguard Account Maker v.2 [/green]")
+print("[green]KayHGNG Wireguard Account Maker v.5 [/green]")
 
 
 
