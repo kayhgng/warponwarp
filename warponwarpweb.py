@@ -2,7 +2,7 @@ import streamlit as st
 import json
 
 # Streamlit app title
-st.title("KayHGNG Wireguard Account Maker v.2")
+st.title("KayHGNG Wireguard Account Maker v.3 On WEB!")
 
 # Open website in a new tab
 url = "https://kayhgng.github.io/wireguardaccount/"
